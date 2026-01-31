@@ -1,22 +1,22 @@
 ## CrushFuzz
 
-Bitcrusher & Fuzz LV2 plugin for guitar. destructive digital artifacts with an analog-style parallel mixing architecture.<br>
+Bitcrusher & Fuzz LV2 plugin for Guitar. Destructive digital artifacts with an Analog-style parallel mixing architecture.<br>
 No GUI.<br>
 Tested Environment: Arch Linux / Ardour.<br>
 
 ![Screenshot](./images/crushplug.png)
 
 ### Features
-- Digital Distortion: Combines Bit Depth Reduction and Sample Rate Reduction (Downsampling) for sonic textures.
+- Digital Distortion: Combines Bit depth reduction and Sample rate reduction (Downsampling) for sonic textures.
 
 - Parallel Processing Architecture: Features independent Dry and Wet level controls. This allows you to blend the destroyed signal with the clean input to maintain low-end punch and transient clarity.
 
 ### Parameters
-Input Gain: Pre-processing amplification.<br>
-Bit Depth: Amplitude quantization. Lower values introduce "crunchy" digital noise and lo-fi textures.<br>
-Downsample: Sample rate reduction factor. Higher values result in "aliased" and synth-like tones.<br>
-Dry Level: Level of the original clean signal.<br>
-Wet Level: Level of the processed signal.<br>
+- **Input Gain**: Pre-processing amplification.
+- **Bit Depth**: Amplitude quantization. Lower values introduce "crunchy" digital noise and lo-fi textures.
+- **Downsample**: Sample rate reduction factor. Higher values result in "aliased" and synth-like tones.
+- **Dry Level**: Level of the original clean signal.<br>
+- **Wet Level**: Level of the processed signal.<br>
 
 ### Requirements
 - LV2 SDK
